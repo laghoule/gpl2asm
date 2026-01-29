@@ -111,6 +111,6 @@ func convertTo6Bits(r, g, b string) (int, int, int, error) {
 }
 
 func exitWithError(err error) {
-	fmt.Printf("Error: %v\n", err)
+	fmt.Printf("%v\n", err)
 	os.Exit(1)
 }
